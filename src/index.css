@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+div {
+  border-radius: 5px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.menuBar {
+  display: flex;
+  background-color: lightgrey;
+  height: 6vh;
+  border: 2px solid black;
+}
+.color {
+  margin: 2px;
+  display: inline-block;
+  padding-top: 5px;
+  background-color: white;
+  width: 140px;
+  height: 4.5vh;
+  border: 1px solid black;
+}
+.red,
+.blue,
+.green,
+.yellow,
+.black {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 2px;
+  border-radius: 100%;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.black {
+  background-color: black;
+}
+.eraser,
+.line-thickness {
+  margin: 2px;
+  display: inline-block;
+  background-color: white;
+  padding-top: 5px;
+  background-color: white;
+  width: 100px;
+  height: 4.5vh;
+  border: 1px solid black;
+}
+.line-thickness:hover {
+  background-color: aliceblue;
+}
+.eraser:hover {
+  background-color: aliceblue;
+}
+.color:hover {
+  background-color: aliceblue;
+}
+.eraser-button-1,
+.eraser-button-2,
+.eraser-button-3 {
+  width: 1.5rem;
+  margin: 2px;
+}
+.eraser-button-1 {
+  height: 1rem;
+}
+.eraser-button-2 {
+  height: 1.5rem;
+}
+.eraser-button-3 {
+  height: 1.75rem;
+}
+.canvas {
+  border: 1px solid black;
+  margin-top: 2px;
+  height: 90vh;
+}
+.pen-button {
+  display: inline-block;
+  width: 70;
+  height: 90%;
+  margin: 2px;
+  background-color: white;
+}
+.fa-pen {
+  font-size: 2rem;
+}
+.line-thickness-1,
+.line-thickness-2,
+.line-thickness-3 {
+  margin: 2px;
+  background-color: black;
+  width: 1.5rem;
+}
+.line-thickness-2 {
+  height: 0.5rem;
+}
+.line-thickness-3 {
+  height: 0.75rem;
 }
